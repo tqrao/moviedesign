@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#top {
+    background-image: url(../image/index_bd.jpg);
+    background-repeat: no-repeat;
+    height: 102px;
+    width: 1366px;
+    text-align: right;
+
+    z-index: 1;
+}
+
+#nav {
+    background-color: #0099ff;
+    background-repeat: repeat-x;
+    height: 37px;
+    width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*第二次添加导航栏和友情链接栏的代码，下拉菜单我们后面做*/
+a:link { /*伪类选择页面中全部的超链接标签的未访问的链接状态*/
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited { /*伪类选择页面中全部的超链接标签的已访问的链接状态*/
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover { /*伪类选择页面中全部的超链接标签的鼠标悬停的状态*/
+    color: #FF0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li { /*后代选择器选择div中行内元素li的设置*/
+    float: left;
+    line-height: 37px;
+    list-style-type: none;
+    text-align: center;
+    position: relative; /*给下拉菜单的父元素设置为相对定位*/
+}
+
+#nav a:link, a:visited { /*后代选择器选择div中行内选择a设置未访问的链接状态*/
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    height: 37px;
+    display: block;
+}
+
+/* #nav a:visited { !*后代选择器选择div中行内选择a设置已访问的链接状态*!
+     color: #FFFFFF;
+     text-decoration: none;
+     font-family: "微软雅黑";
+     font-size: 14px;
+     font-weight: bold;
+     width: 200px;
+     height: 37px;
+     display: block;
+ }*/
+
+#nav a:hover { /*后代选择器选择div中行内选择a设置鼠标悬浮在链接的的状态*/
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #000000; /*点击时颜色*/
+    width: 200px;
+    height: 37px;
+    display: block;
+}
+
+img { /*消除图片的默认格式*/
+    border: none;
+}
+
+/*第四次代码左半部分内容的添加*/
+li {
+    list-style-type: none;
+}
+
+/*第六次添加导航栏下拉菜单的代码*/
+
+#nav #ypgl {
+    background-color: #0099ff;
+    display: none;
+    height: 37px;
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    top: 37px;
+}
+
+#nav #glrk {
+    background-color: #0099ff;
+    display: none;
+    height: 37px;
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    top: 37px;
+}
+
+#nav #ddgl {
+    background-color: #0099ff;
+    display: none;
+    height: 111px;
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    top: 37px;
+}
+
+#nav #yhgl {
+    background-color: #0099ff;
+    display: none;
+    height: 148px;
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    top: 37px;
+}

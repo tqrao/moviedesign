@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="moviedesign:war exploded">
+    <output-path>$PROJECT_DIR$/target/moviedesign</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="moviedesign" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.46" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.7.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/moviedesign/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="moviedesign/web/Web" />
+    </root>
+  </artifact>
+</component>

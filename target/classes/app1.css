@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #343636;
+}
+
+body {
+    display: none;
+    font-family: 'Segoe UI', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.wrap {
+    width: 100%;
+    position: relative;
+    min-width: 310px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: .94rem;
+    background: #fdfdfd;
+}
+
+.header p {
+    font-size: .3rem;
+    line-height: .94rem;
+    color: #333333;
+    margin-left: .30rem;
+}
+
+.tittle {
+    height: .94rem;
+    line-height: .94rem;
+    border-bottom: 1px solid #535558;
+}
+
+.tittle div {
+    float: left;
+    margin-left: .34rem;
+}
+
+.tittle div p {
+    float: left;
+    color: #fff;
+    font-size: .21rem;
+    margin-left: .1rem;
+}
+
+
+
+.sp1 {
+    display: block;
+    width: .44rem;
+    height: .30rem;
+    background: #f5f5f5;
+    float: left;
+    margin-top: .31rem;
+}
+
+.sp2 {
+    display: block;
+    width: .44rem;
+    height: .30rem;
+    background: #fe3f55;
+    float: left;
+    margin-top: .31rem;
+}
+
+.sp3 {
+    display: block;
+    width: .44rem;
+    height: .30rem;
+    background: #0099ff;
+    float: left;
+    margin-top: .31rem;
+}
+
+.pingmu {
+    width: 3.13rem;
+    height: .6rem;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    overflow: auto;
+    margin-top: .4rem;
+    padding: 0.28rem;
+    border-bottom: 1px solid #505254;
+    padding-bottom: .6rem;
+}
+
+.one {
+    overflow: auto;
+}
+
+.content li {
+    display: block;
+    float: left;
+   /* width: .44rem;*/
+    height: .30rem;
+    border: 1px solid #666;
+    margin-left: .1rem;
+    margin-top: .1rem;
+    background: #f5f5f5;
+}
+
+.content li:first-child {
+    margin-left: 0;
+}
+
+
+.zw {
+    color: #fff;
+    padding: .15rem .15rem 0.15rem;
+    line-height: .78rem;
+    font-size: .2rem;
+    overflow: auto;
+    padding-bottom: .25rem;
+}
+
+.zw p span {
+    float: right;
+    font-size: .2rem;
+    color: #666666;
+}
+
+.yxz div {
+    width: 1.5rem;
+    height: .5rem;
+    font-size: .2rem;
+    line-height: .5rem;
+    text-align: center;
+    color: #cfa972;
+    border: 1px solid #cfa972;
+    border-radius: .03rem;
+    float: left;
+    margin-right: .15rem;
+    margin-top: .2rem;
+}
+
+.footer {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    bottom: 0;
+}
+
+
+
+.t_left {
+    float: left;
+    font-size: .2rem;
+    color: #b1b2b2;
+    padding-left: .3rem;
+}
+
+.t_right {
+    float: left;
+    margin-left: .2rem;
+    color: #959595;
+    font-size: .20rem;
+}
+
+.rmb {
+    line-height: 0.5rem;
+    display: inline-block;
+    font-size: .2rem;
+    color: #cc3300;
+}
+.f_left {
+    width: 2.5rem;
+    height: 0.5rem;
+    float: right;
+    background: #4a4c52;
+    line-height: 0.5rem;
+}
+
+.f_right {
+    width: 2rem;
+    height: 0.5rem;
+    float: right;
+    background: #c1a55f;
+    font-size: .25rem;
+    text-align: center;
+    color: #333333;
+}
+
+.box {
+    overflow: auto;
+    margin-bottom: 1rem;
+}

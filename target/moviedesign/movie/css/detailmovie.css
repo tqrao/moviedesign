@@ -1,0 +1,20 @@
+
+#logoArea a {
+    outline: none;
+    line-height: 49px;
+}
+.navbar .nav > li > a {
+    padding: 10px;
+    color: #DDD;
+    text-shadow: none;
+    font-size: 16px;
+}
+.nav>li>a {
+    display: block;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
